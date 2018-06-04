@@ -12,8 +12,8 @@ h6 {
   font-weight: 700;
 }
 
-.a.span.logo {
-  font-family: 'Dynalight', 'Cantora One', sans-serif;
+.logo {
+  font-family: 'Dynalight', 'Cantora One', sans-serif !important;
 }
 
 header.masthead {
