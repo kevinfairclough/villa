@@ -14,4 +14,5 @@ h6 {
 
 .logo {
   @include logo-font;
+  color: $blue !important;
 }

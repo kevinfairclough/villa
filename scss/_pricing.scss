@@ -1,0 +1,40 @@
+.pricing {
+    position: relative;
+    //background-color: $gray-200;
+    // background: url('../img/P5122809.JPG') no-repeat center center;
+    @include background-cover;
+    color: $black !important;
+    padding-top: 2rem;
+    padding-bottom: 0rem;
+    .overlay {
+      position: absolute;
+      background-color: $gray-200;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.3;
+    }
+    .container {
+        padding-top: 3rem;
+        max-width: 960px;
+        .card-title {
+            font-size: larger;
+        }
+    }
+  }
+  
+
+  .pricing-header {
+    max-width: 700px;
+  }
+  
+  .card-deck .card {
+    min-width: 220px;
+  }
+  
+  
+  .border-top { border-top: 1px solid #e5e5e5; }
+  .border-bottom { border-bottom: 1px solid #e5e5e5; }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
