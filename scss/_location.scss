@@ -1,0 +1,29 @@
+.location {
+    position: relative;
+    background-color: $gray-100;
+    // background: url('../img/P5122809.JPG') no-repeat center center;
+    @include background-cover;
+    color: $black !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    .overlay {
+      position: absolute;
+      background-color: $gray-200;
+      height: 100%;
+      width: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0.3;
+    }
+    .container {
+        padding-top: 0rem;
+        max-width: 960px;
+        
+    }
+  }
+
+  #map {
+    height: 200px;
+    background-color: $blue;
+    width: 100%;
+}

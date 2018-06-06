@@ -128,6 +128,7 @@ header.masthead h1 {
 
 .pricing {
   position: relative;
+  background-color: #fff;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -174,6 +175,65 @@ header.masthead h1 {
 
 .box-shadow {
   box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, 0.05);
+}
+
+.location {
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000 !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.location .overlay {
+  position: absolute;
+  background-color: #e9ecef;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.location .container {
+  padding-top: 0rem;
+  max-width: 960px;
+}
+
+#map {
+  height: 200px;
+  background-color: #007bff;
+  width: 100%;
+}
+
+.gallery {
+  position: relative;
+  background-color: #ffc107;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #000 !important;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.gallery .overlay {
+  position: absolute;
+  background-color: #e9ecef;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+}
+
+.gallery .container {
+  padding-top: 0rem;
+  max-width: 960px;
 }
 
 footer.footer {
