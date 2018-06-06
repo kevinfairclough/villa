@@ -179,6 +179,7 @@ header.masthead h1 {
 
 .location {
   position: relative;
+  background-color: #f8f9fa;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
