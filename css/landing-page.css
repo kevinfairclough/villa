@@ -212,29 +212,18 @@ header.masthead h1 {
 
 .gallery {
   position: relative;
-  background-color: #ffc107;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  color: #000 !important;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
 }
 
-.gallery .overlay {
+.gallery iframe {
   position: absolute;
-  background-color: #e9ecef;
-  height: 100%;
-  width: 100%;
   top: 0;
   left: 0;
-  opacity: 0.3;
-}
-
-.gallery .container {
-  padding-top: 0rem;
-  max-width: 960px;
+  width: 100%;
+  height: 100%;
 }
 
 footer.footer {

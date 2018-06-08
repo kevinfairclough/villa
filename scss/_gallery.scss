@@ -1,22 +1,11 @@
 .gallery {
+    //position: relative;
     position: relative;
-    background-color: $yellow;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
     // background: url('../img/P5122809.JPG') no-repeat center center;
-    @include background-cover;
-    color: $black !important;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    .overlay {
-      position: absolute;
-      background-color: $gray-200;
-      height: 100%;
-      width: 100%;
-      top: 0;
-      left: 0;
-      opacity: 0.3;
-    }
-    .container {
-        padding-top: 0rem;
-        max-width: 960px;
-    }
+    //@include background-cover;
+    iframe {position:absolute;top:0;left:0;width:100%;height:100%;}
   }
