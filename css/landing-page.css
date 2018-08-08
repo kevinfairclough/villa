@@ -37,8 +37,7 @@ h6 {
 
 header.masthead {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/P5122839_resized.jpg") no-repeat center center;
+  background: url("../img/28773776648_19e92ed95e_k.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -49,7 +48,6 @@ header.masthead {
 
 header.masthead .overlay {
   position: absolute;
-  background-color: #212529;
   height: 100%;
   width: 100%;
   top: 0;
@@ -78,6 +76,7 @@ header.masthead h1 {
 .showcase .showcase-img {
   min-height: 30rem;
   background-size: cover;
+  background-position: center;
 }
 
 @media (min-width: 768px) {

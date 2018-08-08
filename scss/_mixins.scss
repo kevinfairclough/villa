@@ -7,6 +7,13 @@
   background-size: cover;
 }
 
+@mixin background-position {
+  -webkit-background-position: center;
+  -moz-background-position: center;
+  -o-background-position: center;
+  background-position: center;
+}
+
 // Font Mixins
 @mixin body-font {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
