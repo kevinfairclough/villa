@@ -7,3 +7,5 @@ function scrollFunction() {
         document.getElementById("top").style.display = "none";
     }
 }
+
+var lightbox = $('.gallery a').simpleLightbox();

@@ -60,6 +60,11 @@ gulp.task('vendor', function() {
     ])
     .pipe(gulp.dest('./vendor/simple-line-icons/css'))
 
+    gulp.src([
+      './node_modules/simplelightbox/dist/**',
+    ])
+    .pipe(gulp.dest('./vendor/simplelightbox'))
+
 });
 
 // Compile SCSS
