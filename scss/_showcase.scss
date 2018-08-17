@@ -12,4 +12,11 @@
       padding: 7rem;
     }
   }
+
+  @media (min-width: 900px) {
+    .showcase-img {
+      background-size: 'inherit';
+      background-repeat: no-repeat;
+    }
+  }
 }

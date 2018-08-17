@@ -85,6 +85,13 @@ header.masthead h1 {
   }
 }
 
+@media (min-width: 900px) {
+  .showcase .showcase-img {
+    background-size: 'inherit';
+    background-repeat: no-repeat;
+  }
+}
+
 .features-icons {
   padding-top: 7rem;
   padding-bottom: 7rem;
