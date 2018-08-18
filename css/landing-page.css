@@ -259,6 +259,8 @@ header.masthead h1 {
   /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .gallery .column {
