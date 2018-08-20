@@ -19,15 +19,16 @@
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (http://davidmiller.io/)",
+        "Kevin Fairclough"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+        "url": ""
     },
     "dependencies": {
+        "@fortawesome/fontawesome-free": "~5.2.0",
         "bootstrap": "4.1.1",
-        "font-awesome": "4.7.0",
         "jquery": "3.3.1",
         "simple-line-icons": "^2.4.1",
         "simplelightbox": "^1.13.0"

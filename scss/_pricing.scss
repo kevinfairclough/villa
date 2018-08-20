@@ -5,7 +5,7 @@
     @include background-cover;
     color: $black !important;
     padding-top: 2rem;
-    padding-bottom: 0rem;
+    padding-bottom: 2rem;
     .overlay {
       position: absolute;
       background-color: $gray-200;
@@ -17,6 +17,7 @@
     }
     .container {
         padding-top: 3rem;
+        padding-bottom: 3rem;
         max-width: 960px;
         .card-title {
             font-size: larger;

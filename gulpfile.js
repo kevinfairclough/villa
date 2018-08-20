@@ -27,14 +27,10 @@ gulp.task('vendor', function() {
     .pipe(gulp.dest('./vendor/bootstrap'))
 
   // Font Awesome
-  gulp.src([
-      './node_modules/font-awesome/**/*',
-      '!./node_modules/font-awesome/{less,less/*}',
-      '!./node_modules/font-awesome/{scss,scss/*}',
-      '!./node_modules/font-awesome/.*',
-      '!./node_modules/font-awesome/*.{txt,json,md}'
-    ])
-    .pipe(gulp.dest('./vendor/font-awesome'))
+  // gulp.src([
+  //     './node_modules/@fortawesome/fontawesome-free/css/all.min.css'
+  //   ])
+  //   .pipe(gulp.dest('./vendor/font-awesome'))
 
   // jQuery
   gulp.src([
